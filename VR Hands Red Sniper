@@ -931,10 +931,10 @@ end
 local cons = {}
 
 --gun mod:
-local att = enableGunMod and gp(gp(gp(c, "Meshes/Sniper_rbxAccessory", "Accessory"), "Handle", "BasePart"), "att1_Handle", "Attachment")
+local att = enableGunMod and gp(gp(gp(c, "Meshes/HeavySniper (1)Accessory", "Accessory"), "Handle", "BasePart"), "att1_Handle", "Attachment")
 local racf = ra.CFrame
 if att then
-    local handle0 = gp(gp(model, "Meshes/Sniper_rbxAccessory", "Accessory"), "Handle", "BasePart")
+    local handle0 = gp(gp(model, "Meshes/HeavySniper (1)Accessory", "Accessory"), "Handle", "BasePart")
     if not handle0 then
         return
     end
