@@ -10,21 +10,9 @@ local flybutton = Enum.KeyCode.ButtonR1
 local equipbutton = Enum.KeyCode.ButtonA
 local shootbutton = Enum.KeyCode.ButtonR2
 
---[[
-    VR SCRIPP 
-    
-    MAED BY MyWorld#4430 
-    discord.gg/pYVHtSJmEY
-    
-    tanks for testing Ren~#0724
-    (he literally fell asleep in vr while testing no joke)
-    
-    feel the power 😈
-    of good optimization
-    boi.
-]]
+-- VARS
 
---reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
+--reanimate 
 local Vector3_101 = Vector3.new(1, 0, 1)
 local netless_Y = Vector3.new(0, 25.1, 0)
 local function getNetlessVelocity(realPartVelocity) --edit this if you have a better netless method
